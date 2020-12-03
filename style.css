@@ -56,7 +56,7 @@ p {
 	width: 500px;
 	height: 350px;
 	position: absolute;
-	margin-top: calc(90% - 670px);
+	margin-top: calc(90% - 680px);
 	margin-left: calc(10% - 100px);
 }
 
@@ -73,8 +73,10 @@ p {
 }
 
 .papierbak-container {
-	margin-top: calc(65% - 600px);
-	background-color: white;
+	width: 500px;
+	height: 250px;
+	margin-top: calc(75% - 500px);
+	margin-left: calc(50% - 350px);
 }
 
 .hover {
@@ -82,7 +84,6 @@ p {
 	height: 50px;
 	border-radius: 50px;
 	border: 8px solid #59b363;
-	/*background-color: #59b363;*/
 	position: absolute;
 	margin-top: 380px;
 	margin-left: 280px;
@@ -98,7 +99,7 @@ p {
 }
 
 .hover-3 {
-	margin: 0 ;
+	margin: 300px 0 0 280px;
 }
 
 .melding {
@@ -129,7 +130,8 @@ p {
 }
 
 .melding-3 {
-
+	background-image: url("img/text-background-big2.png");
+	height: 270px;
 }
 
 .big-text {
