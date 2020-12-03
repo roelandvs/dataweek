@@ -12,7 +12,7 @@ body {
 	/*width: 100vw;*/
 	height: 100%;
 	margin: 40px 50px 0 50px;
-	background-image: url("img/background2.jpg");
+	background-image: url("img/background-3.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
  	background-size: 100% auto;
@@ -49,14 +49,15 @@ p {
 
 .text-container p {
 	margin-right: 50px;
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 
 .afval-container {
 	width: 500px;
 	height: 350px;
 	position: absolute;
-	margin-top: calc(90% - 750px);
+	margin-top: calc(90% - 670px);
+	margin-left: calc(10% - 100px);
 }
 
 .afval-container img {
@@ -67,8 +68,13 @@ p {
 	width: 350px;
 	height: 400px;
 	position: absolute;
-	margin-top: calc(55% - 500px);
-	margin-left: calc(80% - 350px);
+	margin-top: calc(65% - 600px);
+	margin-left: calc(70% - 380px);
+}
+
+.papierbak-container {
+	margin-top: calc(65% - 600px);
+	background-color: white;
 }
 
 .hover {
@@ -79,12 +85,20 @@ p {
 	/*background-color: #59b363;*/
 	position: absolute;
 	margin-top: 380px;
-	margin-left: 250px;
+	margin-left: 280px;
 }
 
 .hover img {
 	width: 40px;
 	height: 40px;
+}
+
+.hover-2 {
+	margin-left: 200px;
+}
+
+.hover-3 {
+	margin: 0 ;
 }
 
 .melding {
@@ -97,18 +111,25 @@ p {
 }
 
 .melding-1 {
+	margin: 50px 50px auto auto;
 	width: 350px;
 	height: 250px;
-	background-image: url("img/text-background2.png");
-}
-
-.melding-2 {
-	padding-bottom: 60px;
-	background-image: url("img/text-background-big2.png");
+	/*opacity: 100%;*/
+	background-image: url("img/text-background.png");
 }
 
 .melding-1 p {
 	margin-bottom: 15px;
+}
+
+.melding-2 {
+	padding-bottom: 90px;
+	background-image: url("img/text-background-big2.png");
+	/*opacity: 100%;*/
+}
+
+.melding-3 {
+
 }
 
 .big-text {
