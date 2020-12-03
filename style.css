@@ -14,7 +14,7 @@ body {
 	margin: 40px 50px 0 50px;
 	background-image: url("img/background2.jpg");
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: center top;
  	background-size: 100% auto;
  	color: #20202a;
 }
@@ -26,15 +26,21 @@ h1 {
 	margin-bottom: 15px;
 }
 
+h2 {
+	font-family: 'Bebas Neue';
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
 p {
-	font-size: 1.4em;
 	font-family: 'Roboto';
 	font-weight: 400;
 	line-height: 1.5em;
+	font-size: 1.2em;
 }
 
 .height {
-	height: 180%;
+	height: 190%;
 }
 
 .text-container {
@@ -43,26 +49,73 @@ p {
 
 .text-container p {
 	margin-right: 50px;
+	font-size: 1.4em;
+}
+
+.afval-container {
+	width: 500px;
+	height: 350px;
+	position: absolute;
+	margin-top: calc(90% - 750px);
+}
+
+.afval-container img {
+	width: 250px;
+}
+
+.melding-container {
+	width: 350px;
+	height: 400px;
+	position: absolute;
+	margin-top: calc(55% - 500px);
+	margin-left: calc(80% - 350px);
 }
 
 .hover {
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
-	background-color: #59b363;
+	border: 8px solid #59b363;
+	/*background-color: #59b363;*/
 	position: absolute;
-	margin-top: 50%;
-	margin-left: 65%;
+	margin-top: 380px;
+	margin-left: 250px;
+}
+
+.hover img {
+	width: 40px;
+	height: 40px;
 }
 
 .melding {
-	width: 300px;
-	height: 200px;
-	margin-top: 30%;
-	margin-left: 47%;
-	position: absolute;
-	background-color: white;
+	margin-top: -70px;
+	position: relative;
 	opacity: 0%;
+	background-size: 100% 100%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.melding-1 {
+	width: 350px;
+	height: 250px;
+	background-image: url("img/text-background2.png");
+}
+
+.melding-2 {
+	padding-bottom: 60px;
+	background-image: url("img/text-background-big2.png");
+}
+
+.melding-1 p {
+	margin-bottom: 15px;
+}
+
+.big-text {
+	font-family: 'Bebas Neue';
+	font-size: 1.7em;
+	text-align: center;
+	margin: 0 5px;
 }
 
 .hover:hover + .melding {
