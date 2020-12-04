@@ -36,7 +36,7 @@ p {
 	font-family: 'Roboto';
 	font-weight: 400;
 	line-height: 1.5em;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 .height {
@@ -53,15 +53,16 @@ p {
 }
 
 .afval-container {
-	width: 500px;
+	width: 450px;
 	height: 350px;
 	position: absolute;
-	margin-top: calc(90% - 680px);
+	margin-top: calc(90% - 630px);
 	margin-left: calc(10% - 100px);
+	margin-bottom: 20%;
 }
 
 .afval-container img {
-	width: 250px;
+	width: 400px;
 }
 
 .melding-container {
@@ -75,8 +76,15 @@ p {
 .papierbak-container {
 	width: 500px;
 	height: 250px;
-	margin-top: calc(75% - 500px);
+	margin-top: calc(75% - 420px);
 	margin-left: calc(50% - 350px);
+}
+
+.map-container {
+	position: absolute;
+	top: 50px;
+	right: 100px;
+	width: calc(100% - 700px);
 }
 
 .hover {
@@ -95,11 +103,17 @@ p {
 }
 
 .hover-2 {
+	margin-top: 300px;
 	margin-left: 200px;
 }
 
 .hover-3 {
-	margin: 300px 0 0 280px;
+	margin: 250px 0 0 280px;
+}
+
+.hover-4 {
+	margin-top: 320px;
+	margin-left: -400px;
 }
 
 .melding {
@@ -107,15 +121,14 @@ p {
 	position: relative;
 	opacity: 0%;
 	background-size: 100% 100%;
-	padding: 30px;
+	padding: 25px;
 	box-sizing: border-box;
 }
 
 .melding-1 {
-	margin: 50px 50px auto auto;
-	width: 350px;
-	height: 250px;
-	/*opacity: 100%;*/
+	margin: 100px 0px auto auto;
+	width: 300px;
+	height: 220px;
 	background-image: url("img/text-background.png");
 }
 
@@ -124,14 +137,22 @@ p {
 }
 
 .melding-2 {
-	padding-bottom: 90px;
+	padding-bottom: 50px;
 	background-image: url("img/text-background-big2.png");
-	/*opacity: 100%;*/
+	z-index: 2;
 }
 
 .melding-3 {
-	background-image: url("img/text-background-big2.png");
-	height: 270px;
+	background-image: url("img/text-background-wide.png");
+	height: 220px;
+}
+
+.melding-4 {
+	background-color: white;
+	width: 100%;
+	height: 400px;
+	margin: 0;
+	background-image: url("img/text-background-xbig.png");
 }
 
 .big-text {
