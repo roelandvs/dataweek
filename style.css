@@ -80,6 +80,13 @@ p {
 	margin-left: calc(50% - 350px);
 }
 
+.papierbak-container img {
+	height: 300px;
+	position: absolute;
+	top: -220px;
+	right: 50px;
+}
+
 .map-container {
 	position: absolute;
 	top: 50px;
