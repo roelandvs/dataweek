@@ -3,6 +3,11 @@
 	padding: 0;
 }
 
+/**/
+/*code van zeeeehr hoge kwaliteit*/
+/*Vooral spectaculair responsive*/
+/**/
+
 body {
 	/*width: 100vw;*/
 	height: 107vw;
@@ -157,6 +162,15 @@ p {
 	font-size: 1.7em;
 	text-align: center;
 	margin: 0 5px;
+}
+
+.bronvermelding {
+	color: grey;
+	font-size: 0.5em;
+	width: 400px;
+	position: absolute;
+	top: 104vw;
+	right: 20px;
 }
 
 .hover:hover + .melding {
