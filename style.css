@@ -85,8 +85,10 @@ p {
 .map-container {
 	position: absolute;
 	top: 60px;
-	right: 150px;
-	width: calc(100% - 900px);
+	right: 10vw;
+	min-width: 400px;
+	max-width: 500px;
+	margin-left: 600px;
 }
 
 .map-container img {
@@ -119,8 +121,11 @@ p {
 }
 
 .hover-4 {
-	margin-top: 320px;
-	margin-left: -600px;
+	position: absolute;
+	/*margin-top: 320px;
+	margin-left: -500px;*/
+	/*left: 100px;*/
+	right: calc(100vw - 400px);
 }
 
 .melding {
